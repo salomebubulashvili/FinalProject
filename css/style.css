@@ -47,7 +47,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    font-size: 1.125rem;
 }
 .li-a {
     color: lightgrey;
@@ -61,6 +61,7 @@ ul {
 }
 .web {
     color: lightgray;
+    font-size: 1.125rem;
 }
 .header-text {
     position: absolute;
