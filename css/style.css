@@ -49,7 +49,9 @@ ul {
     align-items: center;
     
 }
-
+.li-a {
+    color: lightgrey;
+}
 .web-pages {
     width: 3.125rem;
     height: 3.125rem;
@@ -58,7 +60,7 @@ ul {
     align-items: center;
 }
 .web {
-    color: #FFFFFF;
+    color: lightgray;
 }
 .header-text {
     position: absolute;
