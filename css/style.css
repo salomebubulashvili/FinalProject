@@ -157,16 +157,21 @@ ul {
 .photos {
     max-width: 90rem;
     width: 100%;
-    
+    min-height: 52.5rem;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0.625rem;
     padding-top: 2.5rem;
     
 }
+.fit {
+    grid-template-columns: repeat (auto-fill, 1fr);
+    grid-template-rows:repeat (auto-fill, 1fr) ;
+}
 .photos img {
-    width: 20rem;
+    max-width: 20rem;
+    width: 100%;
     height: 12.5rem;
 }
 
@@ -179,7 +184,7 @@ ul {
 i:hover {
     color: #E8BC62;
     transform: scale(2,2);
-    transition: all 2s linear 1s;
+    transition: all 2s linear 0.1s;
 }
 .photos img:hover {
     transform: scale(1.5,1.5);
