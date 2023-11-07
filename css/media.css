@@ -1,0 +1,19 @@
+@media (max-width: 375px) {
+    .burger-bar {
+        display: block;
+
+    }
+    .navigation {
+        display: none;
+    }
+    .web-pages {
+        display: none;
+    }
+    .navigation.newNavigation {
+        display: block;
+    }
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
