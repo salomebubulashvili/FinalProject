@@ -1,154 +1,576 @@
 <!DOCTYPE html>
 <html lang="KA">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Winery Chelti</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="/path/to/alk-sanet.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/path/to/alk-sanet.min.css" />
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <div class="bg-image"></div>
-        <div class="header-fixed">
-            <div class="header-wraper">
-                <div class="logo">
-                    <a href="index.html">
-                        <img class="logo-img" src="images/Winery-chelti-logo.png" alt="logo">
-                    </a>
-                </div>
-                <div class="navigation" id="navigation">
-                    <nav >
-                        <ul>
-                            <li>
-                                <a class="li-a" href="#">მთავარი</a>
-                            </li>
-                            <li>
-                                <a class="li-a" href="#AboutUs">ჩვენ შესახებ</a>
-                            </li>
-                            <li>
-                                <a class="li-a" href="#Gallery">გალერეა</a>
-                            </li>
-                            <li>
-                                <a class="li-a" href="#">პროდუქცია</a>
-                            </li>
-                            <li>
-                                <a class="li-a" href="#">სიახლეები</a>
-                            </li>
-                            <li>
-                                <a class="li-a" href="#">კონტაქტი</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="web-pages">
-                    <div class="facebook">
-                        <a href="https://www.facebook.com/">
-                            <i class="fa-brands fa-facebook-f web"></i>
-                        </a>
-                    </div>
-                    <div class="instagram">
-                        <a href="https://www.instagram.com/">
-                            <i class="fa-brands fa-instagram web"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="burger-bar" id="burgerbar">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+      <div class="bg-image"></div>
+      <div class="header-fixed">
+        <div class="header-wraper">
+          <div class="burger-bar" id="burgerbar">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html">
+              <img
+                class="logo-img"
+                src="images/Winery-chelti-logo.png"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="navigation" id="navigation">
+            <nav>
+              <ul>
+                <li>
+                  <a class="li-a" href="#">მთავარი</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#AboutUs">ჩვენ შესახებ</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#Gallery">გალერეა</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#Products">პროდუქცია</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#">სიახლეები</a>
+                </li>
+                <li>
+                  <a class="li-a" href="#">კონტაქტი</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="web-pages">
+            <div class="facebook">
+              <a href="https://www.facebook.com/">
+                <i class="fa-brands fa-facebook-f web"></i>
+              </a>
             </div>
+            <div class="instagram">
+              <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram web"></i>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="burger-bar" id="burgerbar">
+                    <i class="fa-solid fa-bars"></i>
+                </div> -->
         </div>
-        
-        
+      </div>
     </header>
     <main>
-        <!-- AboutUs -->
-        <section class="about-us" id="AboutUs">
-            <div class="left">
-                <h4>ჩვენ შესახებ</h4>
-                <h3>მეღვინეობა ჩელთი</h3>
-                <p>მეღვინეობა „ჩელთის“ ამბავი მე-20 საუკუნიდან იწყება. 1900-იან წლებში მირიანაშვილების წინაპრებმა სოფელ შილდაში იმ დროისათვის ერთ-ერთი დიდი ღვინის მარანი სწორედ აქ ააშენეს.</p>
-                <p>მას მერე მეღვინეობა-მევენახეობა მირიანაშვილების ოჯახისთვის განუყოფელი საქმიანობაა.</p>
-                <p>დღეს „მეღვინეობა ჩელთის“ ბრენდს კარგად იცნობენ 20 მდე ქვეყანაში: ამერიკა, ინგლისი, ჩინეთი, ტაივანი ყაზახეთი, იაპონია, რუსეთი, ბელორუსია, გერმანია, იტალია, საფრანგეთი , ესპანეთი, ლიტვა, ლატვია, ესტონეთი, ბელგია, დანია, უკრაინა.</p>
-                <div class="button">
-                    <button class="left-btn" type="button"> ვრცლად</button>
-                </div>
-                
-            </div>
-            <div class="right">
-                <img class="right-img" src="images/356928687_694454079360747_3720732128261926581_n.jpg" alt="image">
-            </div>
-        </section>
-        <!-- gallery -->
+      <!-- AboutUs -->
+      <section class="about-us" id="AboutUs">
+        <div class="left">
+          <h4>ჩვენ შესახებ</h4>
+          <h3>მეღვინეობა ჩელთი</h3>
+          <p>
+            მეღვინეობა „ჩელთის“ ამბავი მე-20 საუკუნიდან იწყება. 1900-იან წლებში
+            მირიანაშვილების წინაპრებმა სოფელ შილდაში იმ დროისათვის ერთ-ერთი დიდი
+            ღვინის მარანი სწორედ აქ ააშენეს.
+          </p>
+          <p>
+            მას მერე მეღვინეობა-მევენახეობა მირიანაშვილების ოჯახისთვის
+            განუყოფელი საქმიანობაა.
+          </p>
+          <p>
+            დღეს „მეღვინეობა ჩელთის“ ბრენდს კარგად იცნობენ 20 მდე ქვეყანაში:
+            ამერიკა, ინგლისი, ჩინეთი, ტაივანი ყაზახეთი, იაპონია, რუსეთი,
+            ბელორუსია, გერმანია, იტალია, საფრანგეთი , ესპანეთი, ლიტვა, ლატვია,
+            ესტონეთი, ბელგია, დანია, უკრაინა.
+          </p>
+          <div class="button">
+            <button class="left-btn" type="button">ვრცლად</button>
+          </div>
+        </div>
+        <div class="right">
+          <img
+            class="right-img"
+            src="images/356928687_694454079360747_3720732128261926581_n.jpg"
+            alt="image"
+          />
+        </div>
+      </section>
+      <!-- gallery -->
 
-        <section class="gallery" id="Gallery">
-            <div class="gallery-tittle">
-                <h2>მეღვინეობა "ჩელთის" ქარხანა</h2>
+      <section class="gallery" id="Gallery">
+        <div class="gallery-tittle">
+          <h2>მეღვინეობა "ჩელთის" ქარხანა</h2>
+        </div>
+        <div class="gallery-text">
+          <p>
+            მეღვინეობა ჩელთის ქარხანა აღჭურვილია როგორც თანამედროვე ინვენტარით,
+            ასევე – ტრადიციული ქვევრი ღვინის ჭურჭლით.
+          </p>
+          <p>
+            მიწისქვეშა ღვინის საცავი “ჩელთის” მარანში 7 მეტრის სიღრმეზე
+            მდებარეობს. სწორედ ეს სიღრმე, მთელი წლის განმავლობაში ბუნებრივად
+            ინარჩუნებს 14-17°C სითბოს, რაც ღვინის შენახვისა და დაძველებისთვის
+            იდეალური ტემპერატურაა.
+          </p>
+        </div>
+        <div class="photos fit">
+          <div>
+            <img src="images/chelti-gallery2.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-gallery3.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-gallery4.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-gallery5.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-winery1.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-gallery1.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-marani-3.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-marani-4.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-qvevri.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-qvevri2.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-qvevri3.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/Chelti-bottles.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/cheltis-gvinoebi.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-rtveli.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-rtveli3.jpg" alt="image" />
+          </div>
+          <div>
+            <img src="images/chelti-about-us.jpg" alt="image" />
+          </div>
+        </div>
+      </section>
+      <!-- products -->
+      <section class="products" id="Products">
+        <div class="wine-container">
+          <div class="wine">
+            <div class="img">
+              <img src="images/Khikhvi-2021.png" alt="image" />
             </div>
-            <div class="gallery-text">
-                <p>მეღვინეობა ჩელთის ქარხანა აღჭურვილია როგორც თანამედროვე ინვენტარით, ასევე – ტრადიციული ქვევრი ღვინის ჭურჭლით.</p>
-                <p>მიწისქვეშა ღვინის საცავი “ჩელთის” მარანში 7 მეტრის სიღრმეზე მდებარეობს. სწორედ ეს სიღრმე, მთელი წლის განმავლობაში ბუნებრივად ინარჩუნებს 14-17°C სითბოს, რაც ღვინის შენახვისა და დაძველებისთვის იდეალური ტემპერატურაა.</p>
-                
+            <div class="description">
+              <h5>თეთრი მშრალი</h5>
+              <h3>ხიხვი</h3>
+              <div class="wine-info">
+                <div class="year">
+                  <h5>ჩამოსხმის წელი</h5>
+                  <p>2021</p>
+                </div>
+                <div class="alcohol">
+                  <h5>ალკოჰოლი</h5>
+                  <p>13%</p>
+                </div>
+                <div class="liter">
+                  <h5>მოცულობა</h5>
+                  <p>0.75 ლ</p>
+                </div>
+              </div>
+              <p>
+                თეთრი მშრალი , კლასიკური ღვინო. დამზადებულია ხელით მოკრეფილი
+                ხიხვის ვაზის ჯიშისგან. ვენახი გაშენებულია აღმოსავლეთ
+                საქართველოში, კახეთში. ღვინო ღია ჩალისფერია, მომწვანო ელფერით.
+                დომინირებს მწვანე ვაშლის, ლიმონისა და ლაიმის გრილი არომატები.
+                გემო ხალისიანი და დაბალანსებულია. მიირთვით აპერატივად , 8-12
+                გრადუსამდე გაგრილებული. იდეალურად შეეწყვილება სალათებს, ზღვის
+                პროდუქტებსა და ფრინველის ხორცს.
+              </p>
             </div>
-            <div class="photos fit">
-                <div>
-                    <img src="images/chelti-gallery2.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-gallery3.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-gallery4.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-gallery5.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-winery1.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-gallery1.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-marani-3.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-marani-4.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-qvevri.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-qvevri2.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-qvevri3.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/Chelti-bottles.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/cheltis-gvinoebi.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-rtveli.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-rtveli3.jpg" alt="image">
-                </div>
-                <div>
-                    <img src="images/chelti-about-us.jpg" alt="image">
-                </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="images/Tsitska-2021.png" alt="image" />
             </div>
-        </section>
+            <div class="description">
+              <h5>თეთრი ნახევრად-მშრალი</h5>
+              <h3>ციცქა-კრახუნა</h3>
+              <div class="wine-info">
+                <div class="year">
+                  <h5>ჩამოსხმის წელი</h5>
+                  <p>2021</p>
+                </div>
+                <div class="alcohol">
+                  <h5>ალკოჰოლი</h5>
+                  <p>13%</p>
+                </div>
+                <div class="liter">
+                  <h5>მოცულობა</h5>
+                  <p>0.75 ლ</p>
+                </div>
+              </div>
+              <p>
+                თეთრი ნახევრად მშრალი, კლასიკური ღვინო, დამზადებულია ხელით
+                მოკრეფილი ციცქასა და კრახუნას ვაზის ჟიშებისგან. ვენახი
+                გაშენებულია დასავლეთ საქართველოში. ღვინო მიმზიდველი ,ღია
+                ჩალისფერია, მომწვანო ელფერით. არომატში დომინირებს წითელი ვაშლისა
+                და გულაბის ტკბილი ტონები, რომელსაც თან მოსდევს ანანასისა და
+                ბანანის სურნელი. გემო რბილი, ხალისიანი და დაბალანსებულია.
+                მიირთვით აპერატივად , 8-12 გრადუსამდე გაგრილებული. იდეალურად
+                შეეწყვილება სალათებს, ზღვის პროდუქტებს.
+              </p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="images/xixvi-qvevris.png" alt="image" />
+            </div>
+            <div class="description">
+              <h5>თეთრი, მშრალი ღვინო</h5>
+              <h3>ხიხვი ქვევრის</h3>
+              <div class="wine-info">
+                <div class="year">
+                  <h5>ჩამოსხმის წელი</h5>
+                  <p>2020</p>
+                </div>
+                <div class="alcohol">
+                  <h5>ალკოჰოლი</h5>
+                  <p>13%</p>
+                </div>
+                <div class="liter">
+                  <h5>მოცულობა</h5>
+                  <p>0.75 ლ</p>
+                </div>
+              </div>
+              <p>
+                თეთრი მშრალი ღვინო ხიხვი დამზადებულია ხიხვის ჯიშის ყურძნისგან.
+                ღვინო ღია ჩალისფერია. გემოში დახვეწილი და სრულ სხეულიანი.
+                არომატში დომინირებს ტროპიკული ხილის ტონები. მიირთვით სალათებთან,
+                თევზისა და ფრინველის კერძებთან.
+              </p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="images/tsinandali-2022-13-1.png" alt="image" />
+            </div>
+            <div class="description">
+              <h5>თეთრი, მშრალი ღვინო</h5>
+              <h3>წინანდალი</h3>
+              <div class="wine-info">
+                <div class="year">
+                  <h5>ჩამოსხმის წელი</h5>
+                  <p>2022</p>
+                </div>
+                <div class="alcohol">
+                  <h5>ალკოჰოლი</h5>
+                  <p>13.5%</p>
+                </div>
+                <div class="liter">
+                  <h5>მოცულობა</h5>
+                  <p>0.75 ლ</p>
+                </div>
+              </div>
+              <p>
+                მშრალი თეთრი ღვინო წინანდალი დამზადებულია რქაწითელის და კახური
+                მწვანეს ჯიშის ყურძნისგან (რქაწითელი – 80%, მწვანე – 20%). ღვინოს
+                ახასიათებს ჩალის ფერი, ციტრუსის და ტროპიკული ხილის ტონები.
+                უმჯობესია მიირთვათ თევზთან და შემწვარ ქათამთან 11°C – 14°C
+                ტემპერატურაზე
+              </p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year">
+                  <h5></h5>
+                  <p></p>
+                </div>
+                <div class="alcohol">
+                  <h5></h5>
+                  <p></p>
+                </div>
+                <div class="liter">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="images/Khikhvi-2021.png" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="wine">
+            <div class="img">
+              <img src="" alt="image" />
+            </div>
+            <div class="description">
+              <h5></h5>
+              <h3></h3>
+              <div class="wine-info">
+                <div class="year"></div>
+                <div class="alcohol"></div>
+                <div class="liter"></div>
+              </div>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
