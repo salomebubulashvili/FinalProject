@@ -20,5 +20,7 @@
     .web-pages {
         display: none;
     }
-    
+    .right {
+        display: none;
+    }
 }
