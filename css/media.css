@@ -25,13 +25,19 @@
     .right {
         display: none;
     }
+    .wine-tittle h2 {
+        font-size: 2rem;
+    }
 }
-@media (max-width: 375px) {
+@media ( max-width: 375px) {
    
     .web-pages {
         display: none;
     }
     .right {
         display: none;
+    }
+    .wine-tittle {
+        padding-top: 5rem;
     }
 }

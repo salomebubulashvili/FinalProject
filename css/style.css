@@ -170,22 +170,23 @@ ul {
     padding-top: 2.5rem;
     
 }
-/* .fit {
-    grid-template-columns: repeat (auto-fit, 1fr);
-    grid-template-rows:repeat (auto-fit, 1fr) ;
-} */
+
 .photos img {
     max-width: 20rem;
     width: 100%;
     height: 12.5rem;
+    
 }
 /* products */
 .products {
     max-width: 90rem;
     width: 100%;
-    padding-top: 12.5rem;
+    min-height: 193rem;
+    padding-top: 18.75rem;
     margin: 0 auto;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .wine-container {
     max-width: 90rem;
@@ -195,7 +196,19 @@ ul {
     flex-wrap: wrap;
     gap: 2.5rem 5rem;
     align-items: center;
-    padding-top: 12.5rem;
+    padding-top: 6.25rem;
+   
+}
+.wine-tittle {
+    max-width: 50rem;
+    width: 100%;
+    min-height: 7.5rem;
+}
+.wine-tittle h2 {
+    color: #FFFFFF;
+    font-size: 3.75rem;
+    font-family: 'ALK Sanet';
+    text-shadow: 2px 2px 4px #FFFFFF;
 }
 .wine {
     display: flex;
@@ -205,6 +218,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: start;
+    border: 2px hidden #FFFFFF;
+    
 }
 .wine-img img {
     max-width: 5rem;
