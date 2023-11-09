@@ -13,9 +13,19 @@
         flex-direction: column;
         align-items: center;
     }
-    
+    .web-pages {
+        flex-direction: column;
+    }
 }
 
+@media (max-width:768px) {
+    .web-pages {
+        display: none;
+    }
+    .right {
+        display: none;
+    }
+}
 @media (max-width: 375px) {
    
     .web-pages {
