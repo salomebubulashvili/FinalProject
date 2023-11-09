@@ -19,6 +19,12 @@
     .royal-text {
         padding-top: 5rem;
     }
+    .royal-text p {
+        font-size: 1.25rem;
+    }
+    .royal-wraper {
+        flex-direction: column;
+    }
 }
 
 @media (max-width:768px) {

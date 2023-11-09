@@ -267,19 +267,21 @@ ul {
 .heritage-and-awards {
     max-width: 90rem;
     width: 100%;
+    min-height: 152rem;
     display: flex;
     flex-direction: column;
 }
 .heritage {
     max-width: 90rem;
     width: 100%;
+    min-height: 152rem;
     margin: 0 auto;
     padding-top: 2.5rem;
 }
 .chelti-heritage {
     max-width: 90rem;
     width: 100%;
-    min-height: 32rem;
+    min-height: 43.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -345,10 +347,11 @@ ul {
 .royal {
     max-width: 90rem;
     width: 100%;
-    height: 90rem;
+    min-height: 50rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 7.5rem;
 }
 .royal-tittle {
     font-family: 'ALK Sanet';
@@ -356,25 +359,37 @@ ul {
     text-shadow: 2px 2px 4px lightsalmon;
     color: #E8BC62;
     padding-top: 5rem;
+    height: 8.75rem;
+}
+.royal-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+    
 }
 .royal-img {
     
-    max-width: 90rem;
+    max-width: 50rem;
     width: 100%;
-    height: 45rem;
+    height: 35rem;
     margin: 0 auto;
-    padding-top: 6.25rem;
+    
 }
 .royal img {
+    max-width: 50rem;
+    height: 35rem;
     width: 100%;
     border-radius: 1rem;
 }
 .royal-text {
     color:#E8BC62;
-    padding-top: 40rem ;
+    max-width: 35rem;
+    width: 100%;
+    height: 35rem;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
+    row-gap: 2rem;
     
 }
 .royal-text p {
@@ -383,8 +398,49 @@ ul {
     
 }
 /* awards */
-
-
+.awards {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 57rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+.awards-description {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    row-gap: 1rem;
+    max-width: 46rem;
+}
+.awards-description h4 {
+    font-family: 'ALK Sanet';
+    font-size: 2rem;
+    color: #E8BC62;
+}
+.awards-description p {
+    font-family: 'ALK Sanet';
+    font-size: 1.125rem;
+}
+.awards-wraper {
+    max-width: 90rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    gap: 2.5rem;
+}
+.logos {
+    max-width: 12.5rem;
+    
+}
+.logos img {
+    max-width: 12.5rem;
+    width: 100%;
+    height: 12.5rem;
+}
 
 
 
@@ -397,6 +453,10 @@ i:hover {
     transition: all 2s linear 0.1s;
 }
 .photos img:hover {
+    transform: scale(1.2,1.2);
+    transition: all 2s linear;
+}
+.logos img:hover{
     transform: scale(1.2,1.2);
     transition: all 2s linear;
 }
