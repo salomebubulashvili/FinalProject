@@ -264,6 +264,12 @@ ul {
 }
 
 /* heritage */
+.heritage-and-awards {
+    max-width: 90rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 .heritage {
     max-width: 90rem;
     width: 100%;
@@ -336,6 +342,51 @@ ul {
     height: 32rem;
     border-radius: 3.75rem 1.25rem;
 }
+.royal {
+    max-width: 90rem;
+    width: 100%;
+    height: 90rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.royal-tittle {
+    font-family: 'ALK Sanet';
+    font-size: 3.75rem;
+    text-shadow: 2px 2px 4px lightsalmon;
+    color: #E8BC62;
+    padding-top: 5rem;
+}
+.royal-img {
+    
+    max-width: 90rem;
+    width: 100%;
+    height: 45rem;
+    margin: 0 auto;
+    padding-top: 6.25rem;
+}
+.royal img {
+    width: 100%;
+    border-radius: 1rem;
+}
+.royal-text {
+    color:#E8BC62;
+    padding-top: 40rem ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    
+}
+.royal-text p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 2rem;
+    
+}
+/* awards */
+
+
+
+
 
 
 
