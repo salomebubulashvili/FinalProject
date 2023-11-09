@@ -218,7 +218,7 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    border: 2px hidden #FFFFFF;
+    
     
 }
 .wine-img img {
@@ -262,6 +262,83 @@ ul {
     font-family: 'BPG Irubaqidze';
     font-size: 1.125rem;
 }
+
+/* heritage */
+.heritage {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+.chelti-heritage {
+    max-width: 90rem;
+    width: 100%;
+    min-height: 32rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.heritage-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heritage-left {
+    max-width: 30rem;
+    width: 100%;
+    height: 32rem;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+
+}
+.heritage-tittle {
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+.heritage-tittle h2 {
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: 'ALK Sanet';
+    text-shadow: 2px 2px 4px lightsalmon;
+}
+.heritage-tittle p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.text h2 {
+    
+    font-family: 'ALK Sanet';
+    font-size: 1.75rem;
+    text-shadow: 2px 2px 4px lightsalmon;
+    margin-bottom: 1rem;
+}
+.text p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1.25rem;
+    
+}
+.heritage-right {
+    max-width: 50rem;
+    width: 100%;
+    height: 32rem;
+    
+}
+.heritage-right img {
+    max-width: 50rem;
+    width: 100%;
+    height: 32rem;
+    border-radius: 3.75rem 1.25rem;
+}
+
+
+
 /* hover */
 i:hover {
     color: #E8BC62;

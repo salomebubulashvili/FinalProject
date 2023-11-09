@@ -28,7 +28,13 @@
     .wine-tittle h2 {
         font-size: 2rem;
     }
-}
+    .heritage-right {
+        display: none;
+    }
+    .heritage-tittle h2 {
+        font-size: 2rem;
+    }
+} .
 @media ( max-width: 375px) {
    
     .web-pages {
