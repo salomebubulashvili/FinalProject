@@ -25,6 +25,9 @@
     .royal-wraper {
         flex-direction: column;
     }
+    .footer-container {
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width:768px) {
@@ -43,10 +46,33 @@
     .heritage-tittle h2 {
         font-size: 2rem;
     }
+    .logos img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .mail h5 {
+        font-size: 1.125rem;
+    }
+    
 } 
 @media (max-width:480px) {
     .royal-tittle {
         padding-top: 10rem;
+    }
+    .email-box {
+        flex-direction: column;
+    }
+    .email {
+        max-width: 20rem;
+        width: 100%;
+    }
+    .submit {
+        max-width: 20rem;
+        width: 100%;
     }
 }
 @media ( max-width: 375px) {

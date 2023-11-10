@@ -54,6 +54,8 @@ ul {
 .li-a {
     color: lightgrey;
 }
+
+
 .web-pages {
     width: 3.125rem;
     height: 3.125rem;
@@ -197,7 +199,7 @@ ul {
     gap: 2.5rem 5rem;
     align-items: center;
     padding-top: 6.25rem;
-   
+    box-shadow: 5px 10px 8px 10px lightslategray;
 }
 .wine-tittle {
     max-width: 50rem;
@@ -342,7 +344,9 @@ ul {
     max-width: 50rem;
     width: 100%;
     height: 32rem;
-    border-radius: 3.75rem 1.25rem;
+    /* border-radius: 3.75rem 1.25rem; */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    box-shadow: 5px 10px 18px lightgrey;
 }
 .royal {
     max-width: 90rem;
@@ -440,11 +444,91 @@ ul {
     max-width: 12.5rem;
     width: 100%;
     height: 12.5rem;
+    
 }
 
+/* footer */
+footer {
+    
+    width: 100%;
+    min-height: 12rem;
+    border-top: 1px solid lightgrey;
+    padding-top: 4rem;
+}
+.footer-container {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-web,
+.address,
+.phone,
+.mail {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+} 
+.rights p {
+    font-family: 'BPG Irubaqidze';
+    font-size: 1rem;
+}
+.footer-web {
+    align-items: center;
+}
+.social{
+    display: flex;
+    max-width: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.address a,
+.phone a {
+    color: #FFFFFF;
+    font-family: 'BPG Irubaqidze';
+    font-size: 1rem;
+}
+.submit {
+    border: none;
+    background-color: black;
+    color: #E8BC62;
+}
+.address h5,
+.phone h5,
+.mail h5 {
+    font-size: 1.125rem;
+    font-family: 'ALK Sanet';
+}
+.form {
+    width: 20rem;
+}
 
-
-
+.email-box {
+    max-width: 20rem;
+    width: 100%;
+    height: 1.25rem;
+    display: flex;
+}
+.email {
+    max-width: 10rem;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 0.875rem;
+    background-color: black;
+    border: none;
+    
+}
+.submit {
+    max-width: 8rem;
+    width: 100%;
+    border: 1px solid #E8BC62;
+    height: 2.5rem;
+    
+}
 
 /* hover */
 i:hover {
@@ -459,4 +543,8 @@ i:hover {
 .logos img:hover{
     transform: scale(1.2,1.2);
     transition: all 2s linear;
+}
+.submit:hover {
+    background-color: #E8BC62;
+    color: #FFFFFF;
 }
