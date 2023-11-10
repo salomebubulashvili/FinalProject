@@ -668,6 +668,12 @@ i:hover {
     color: #FFFFFF;
     transition: all 1s linear;
 }
-.li-a:hover:active {
+.li-a:active {
     color: #E8BC62;
+}
+
+.email:hover,
+.input:hover,
+.message:hover {
+    background-color: lightgoldenrodyellow;
 }
