@@ -28,6 +28,10 @@
     .footer-container {
         flex-wrap: wrap;
     }
+    .section-wraper {
+        flex-direction: column;
+        row-gap: 2.5rem;
+    }
 }
 
 @media (max-width:768px) {
@@ -72,6 +76,16 @@
     }
     .submit {
         max-width: 20rem;
+        width: 100%;
+    }
+    .contact-forms {
+        max-width: 20rem;
+        width: 100%;
+    }
+    .forms {
+        width: 100%;
+    }
+    .message {
         width: 100%;
     }
 }
