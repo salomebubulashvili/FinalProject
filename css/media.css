@@ -44,6 +44,11 @@
     .royal-text {
         height: 20rem;
     }
+    .right-img {
+        max-width: 30rem;
+        width: 100%;
+        height: 32rem;
+    }
 }
 
 @media (max-width:768px) {
@@ -53,6 +58,7 @@
     .right {
         display: none;
     }
+    
     .wine-tittle h1 {
         font-size: 2rem;
     }
