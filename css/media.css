@@ -32,7 +32,17 @@
         flex-direction: column;
         row-gap: 2.5rem;
     }
-    
+    .heritage-wraper{
+        flex-direction: column;
+    }
+    .heritage-right {
+        max-width: 30rem;
+        height: 28rem;
+    }
+    .heritage-right img {
+        width: 100%;
+        height: 28rem;
+    }
 }
 
 @media (max-width:768px) {
@@ -62,7 +72,7 @@
     .mail h5 {
         font-size: 1.125rem;
     }
-   
+    
     
 } 
 @media (max-width:480px) {
