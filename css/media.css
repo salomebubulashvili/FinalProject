@@ -32,6 +32,7 @@
         flex-direction: column;
         row-gap: 2.5rem;
     }
+    
 }
 
 @media (max-width:768px) {
@@ -41,7 +42,7 @@
     .right {
         display: none;
     }
-    .wine-tittle h2 {
+    .wine-tittle h1 {
         font-size: 2rem;
     }
     .heritage-right {
@@ -61,6 +62,7 @@
     .mail h5 {
         font-size: 1.125rem;
     }
+   
     
 } 
 @media (max-width:480px) {
@@ -86,7 +88,11 @@
         width: 100%;
     }
     .message {
+        
         width: 100%;
+    }
+    .photos img {
+        max-width: 15rem;
     }
 }
 @media ( max-width: 375px) {
@@ -104,4 +110,21 @@
     .royal-text {
         padding-top: 0.625rem;
     }
+   .mail h5 {
+    font-size: 1rem;
+   }
+   .form {
+    max-width: 15rem;
+    width: 100%;
+   }
+   .email {
+    max-width: 15rem;
+    width: 100%;
+    
+   }
+   .submit {
+    max-width: 15rem;
+    width: 100%;
+   }
+   
 }

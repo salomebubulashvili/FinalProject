@@ -54,7 +54,9 @@ ul {
 .li-a {
     color: lightgrey;
 }
-
+i {
+    transition: all 2s linear 0.1s;
+}
 
 .web-pages {
     width: 3.125rem;
@@ -75,7 +77,7 @@ ul {
 .about-us {
     max-width: 90rem;
     width: 100%;
-    height: 43.75rem;
+    height: 50rem;
     margin: 0 auto;
     display: flex;
     justify-content:space-between;
@@ -127,18 +129,19 @@ ul {
     background-color: black;
     color: #E8BC62;
     font-family: ALK Sanet;
+    transition: all 1s linear;
 }
 .right-img {
     max-width: 50rem;
     width: 100%;
     height: 43.75rem;
-    
+    border-radius: 1.25rem;
 }
 /* gallery */
 .gallery {
     max-width: 90rem;
     width: 100%;
-    height: 62.5rem;
+    min-height: 62.5rem;
     padding-top: 5rem;
     margin: 0 auto;
 }
@@ -167,27 +170,27 @@ ul {
     width: 100%;
     min-height: 52.5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    
-
-    gap: 0.625rem;
+   
+    gap: 2rem;
     padding-top: 2.5rem;
-    
+    grid-template-columns: repeat(auto-fit, minmax(10rem,20rem));
+    grid-template-rows: repeat(auto-fit, minmax (6.5rem, 12.5rem));
+    justify-content: space-around;
 }
 
 .photos img {
     max-width: 20rem;
     width: 100%;
     height: 12.5rem;
-    
+    border-radius: 8px;
+    transition: all 1s linear;
 }
 /* products */
 .products {
     max-width: 90rem;
     width: 100%;
     min-height: 193rem;
-    padding-top: 18.75rem;
+    padding-top: 12.5rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -203,13 +206,14 @@ ul {
     align-items: center;
     padding-top: 6.25rem;
     box-shadow: 5px 10px 8px 10px lightslategray;
+    border-radius: 0.5rem;
 }
 .wine-tittle {
     max-width: 50rem;
     width: 100%;
     min-height: 7.5rem;
 }
-.wine-tittle h2 {
+.wine-tittle h1 {
     color: #FFFFFF;
     font-size: 3.75rem;
     font-family: 'ALK Sanet';
@@ -447,7 +451,7 @@ ul {
     max-width: 12.5rem;
     width: 100%;
     height: 12.5rem;
-    
+    transition: all 1s linear;
 }
 
 /* footer */
@@ -489,6 +493,11 @@ footer {
     justify-content: space-between;
     
 }
+.mail {
+    max-width: 22rem;
+    width: 100%;
+    min-height: 4.75rem;
+}
 .address a,
 .phone a {
     color: #FFFFFF;
@@ -513,7 +522,7 @@ footer {
 .email-box {
     max-width: 20rem;
     width: 100%;
-    height: 1.25rem;
+    height: 2.5rem;
     display: flex;
 }
 .email {
@@ -530,7 +539,7 @@ footer {
     width: 100%;
     border: 1px solid #E8BC62;
     height: 2.5rem;
-    
+    transition: all 1s linear;
 }
 /* contact us */
 .contact-header {
@@ -605,6 +614,7 @@ footer {
     height: 2.5rem;
     font-family: 'BPG Irubaqidze';
     font-size: 1.125rem;
+    transition: all 1s linear;
 }
 .contact-us {
     display: flex;
@@ -642,31 +652,31 @@ footer {
 i:hover {
     color: #E8BC62;
     transform: scale(2,2);
-    transition: all 2s linear 0.1s;
+    
 }
 .photos img:hover {
     transform: scale(1.2,1.2);
-    transition: all 2s linear;
+    
 }
 .logos img:hover{
     transform: scale(1.2,1.2);
-    transition: all 2s linear;
+    
 }
 
 .submit:hover {
     background-color: #E8BC62;
     color: #FFFFFF;
-    transition: all 1s linear;
+    
 }
 .btn:hover {
     background-color: #E8BC62;
     color: #FFFFFF;
-    transition: all 1s linear;
+   
 }
 .left-btn:hover {
     background-color: #E8BC62;
     color: #FFFFFF;
-    transition: all 1s linear;
+    
 }
 .li-a:active {
     color: #E8BC62;
