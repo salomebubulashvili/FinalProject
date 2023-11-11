@@ -276,21 +276,21 @@ i {
 .heritage-and-awards {
     max-width: 90rem;
     width: 100%;
-    min-height: 152rem;
+    min-height: 190rem;
     display: flex;
     flex-direction: column;
 }
 .heritage {
     max-width: 90rem;
     width: 100%;
-    min-height: 152rem;
+    min-height: 190rem;
     margin: 0 auto;
     padding-top: 2.5rem;
 }
 .chelti-heritage {
     max-width: 90rem;
     width: 100%;
-    min-height: 43.25rem;
+    min-height: 87.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -363,6 +363,7 @@ i {
     flex-direction: column;
     align-items: center;
     row-gap: 7.5rem;
+    padding-top: 5rem;
 }
 .royal-tittle {
     font-family: 'ALK Sanet';
@@ -407,6 +408,17 @@ i {
     font-family: 'BPG Irubaqidze';
     font-size: 2rem;
     
+}
+.video {
+    max-width: 56.25rem;
+    width: 100%;
+    height: 43.75rem;
+    padding-top: 5rem;
+    margin: 0 auto;
+    
+}
+.video-youtube {
+    width: 100%;
 }
 /* awards */
 .awards {
